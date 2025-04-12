@@ -1,0 +1,181 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+        flex-direction: column;
+        &-logo {
+            display: none;
+            &__mobile {
+                display: block;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 150%;
+                text-align: left;
+                text-transform: uppercase;
+                padding: 10px 29px 10px 29px;
+            }
+            
+        }
+        &-info {
+            flex-direction: row;
+            padding: 5px 10px 5px 10px;
+            &__link {
+                font-size: 12px;
+
+            }
+        }      
+  
+    }
+
+    .header.scrolled {
+        background-color: #222222;
+        width: 100%;
+        .header-logo {
+          font-size: 16px;
+        }
+        .header-info {
+          padding: 19px 29px 19px 29px;
+          flex-direction: row;
+        }
+    }
+
+    .top {
+        background-image: none;
+        padding-top: 120px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        &-title {
+            padding-left: 0;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        &-slogan {
+            font-size: 20px;
+            text-align: center;
+            line-height: 140%;
+            padding-bottom: 20px;
+        }
+        &-text {
+            display: none;
+        }
+        &-bonus {
+            width: 100%;
+            padding: 15px;
+            &__list {
+                font-size: 16px;
+                text-align: center;
+                line-height: 140%;
+            }
+        }
+        &-button {
+            width: 225px;
+            font-size: 12px;
+        }
+    }
+
+    .description {
+        margin-bottom: 50px;
+        background-image: none;
+        &-img {
+            display: none;
+        }
+        &-perks {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            &__list {
+                font-size: 16px;
+                margin-left: 0;
+                margin-right: 0;
+                text-align: center;
+            }
+            &__button {
+                font-size: 12px;
+            }
+        }
+    }
+    .form {
+        margin-bottom: 50px;
+        justify-content: center;
+        &-block {
+            padding: 30px 20px 30px 20px;
+            border-radius: 30px;
+            background-image: url(img/img-form.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 90%;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        &-text {
+            font-size: 20px;
+        }
+        &-input {
+            padding: 8px 10px 8px 16px;
+            font-size: 14px;
+            width: 100%;
+            height: 40px;
+        }
+        &-agreement {
+            font-size: 12px;
+        }
+        &-button {
+            font-size: 12px;
+            padding: 20px 12px 20px 12px;
+        }
+        &-img {
+            display: none;
+        }
+    }
+    .footer {
+        padding-bottom: 30px;
+        &-info {
+            padding-top: 18px;
+            padding-bottom: 18px;
+            flex-direction: column;
+            row-gap: 12px;
+            &__link {
+                font-size: 14px;
+            }
+        }
+        &-block {
+            padding-top: 20px;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+        &-logo {
+            display: none;
+        }
+        &-contacts {
+            &__text {
+                display: none;
+            }
+        }
+        &-icon {
+            width: 70%;
+            height: 70%;
+        }
+        &-callback {
+            align-items: center;
+            &__button {
+                width: 225px;
+                font-size: 12px;
+            }
+            &__text {
+                font-size: 10px;
+            }
+        }
+    }
+
+}
