@@ -87,12 +87,14 @@ body {
   background-position: center right;
   background-size: 40% 100%;
   background-repeat: no-repeat;
+  margin-bottom: 100px;
 }
 .top-title {
   padding-left: calc(50% - 800px);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  max-width: 60%;
 }
 .top-slogan {
   padding-bottom: 50px;
@@ -155,7 +157,7 @@ body {
   background-image: url(img/perk-bg.jpg);
 }
 .description-perks {
-  width: 614px;
+  max-width: 614px;
   background-color: #282829;
   padding-left: 53px;
   padding-right: 53px;
@@ -213,7 +215,7 @@ body {
   padding-bottom: 71.5px;
   padding-left: 134px;
   padding-right: 10px;
-  width: 781px;
+  max-width: 781px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
 }
@@ -414,4 +416,108 @@ body {
   font-weight: 400;
   line-height: 150%;
   color: #D5C9BE;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .header-logo {
+    font-size: 20px;
+  }
+  .header-info {
+    padding: 16px 0 16px 0;
+    flex-direction: column;
+  }
+  .header.scrolled {
+    background-color: #222222;
+    width: 100%;
+  }
+  .header.scrolled .header-logo {
+    font-size: 16px;
+  }
+  .header.scrolled .header-info {
+    padding: 19px 29px 19px 29px;
+    flex-direction: row;
+  }
+  .top {
+    padding-top: 220px;
+  }
+  .top-title {
+    padding-left: 20px;
+  }
+  .top-slogan {
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .top-text {
+    font-size: 20px;
+    padding-bottom: 34px;
+    width: 70%;
+  }
+  .top-bonus {
+    padding: 15px;
+  }
+  .top-bonus__list {
+    font-size: 16px;
+  }
+  .top-button {
+    font-size: 16px;
+  }
+  .description-perks {
+    width: 70%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .description-perks__list {
+    font-size: 18px;
+  }
+  .description-perks__button {
+    font-size: 16px;
+  }
+  .form {
+    justify-content: center;
+  }
+  .form-block {
+    padding: 50px 40px 50px 40px;
+    border-radius: 30px;
+    background-image: url(img/img-form.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-img {
+    display: none;
+  }
+  .footer-info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer-logo__name {
+    font-size: 20px;
+  }
+  .footer-logo__text {
+    font-size: 16px;
+  }
+  .footer-contacts__text {
+    font-size: 16px;
+  }
+  .footer-callback__button {
+    font-size: 16px;
+  }
+  .footer-callback__text {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) and (max-width: 833px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
