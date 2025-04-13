@@ -218,8 +218,8 @@ body {
   align-items: flex-start;
   background-color: #fff;
   row-gap: 13px;
-  padding-top: 72.5px;
-  padding-bottom: 71.5px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   padding-left: 134px;
   padding-right: 10px;
   max-width: 781px;
@@ -398,6 +398,7 @@ body {
   font-weight: 400;
   line-height: 150%;
   color: #D5C9BE;
+  text-decoration: none;
 }
 .footer-callback {
   display: flex;
@@ -444,6 +445,8 @@ body {
   .header.scrolled {
     background-color: #222222;
     width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .header.scrolled .header-logo {
     font-size: 16px;
@@ -572,7 +575,7 @@ body {
   }
   .header-info {
     flex-direction: row;
-    padding: 5px 10px 5px 10px;
+    padding: 15px 10px 15px 10px;
   }
   .header-info__link {
     font-size: 12px;
@@ -580,13 +583,18 @@ body {
   .header.scrolled {
     background-color: #222222;
     width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .header.scrolled .header-logo {
     font-size: 16px;
   }
   .header.scrolled .header-info {
-    padding: 19px 29px 19px 29px;
+    padding: 10px 10px 10px 10px;
     flex-direction: row;
+  }
+  .header.scrolled .header-info__link {
+    font-size: 10px;
   }
   .top {
     background-image: none;
@@ -625,6 +633,7 @@ body {
   .top-button {
     width: 225px;
     font-size: 12px;
+    padding: 12px 20px 12px 20px;
   }
   .description {
     margin-bottom: 50px;
@@ -637,6 +646,10 @@ body {
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .description-perks__list {
     font-size: 16px;
@@ -645,7 +658,9 @@ body {
     text-align: center;
   }
   .description-perks__button {
+    padding: 12px 20px 12px 20px;
     font-size: 12px;
+    width: 225px;
   }
   .form {
     margin-bottom: 50px;
@@ -675,7 +690,7 @@ body {
   }
   .form-button {
     font-size: 12px;
-    padding: 20px 12px 20px 12px;
+    padding: 12px 20px 12px 20px;
   }
   .form-img {
     display: none;
@@ -690,18 +705,18 @@ body {
     row-gap: 12px;
   }
   .footer-info__link {
-    font-size: 14px;
+    font-size: 12px;
   }
   .footer-block {
     padding-top: 20px;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 24px;
   }
   .footer-logo {
     display: none;
   }
   .footer-contacts__text {
-    display: none;
+    font-size: 10px;
   }
   .footer-icon {
     width: 70%;
@@ -711,6 +726,7 @@ body {
     align-items: center;
   }
   .footer-callback__button {
+    padding: 12px 20px 12px 20px;
     width: 225px;
     font-size: 12px;
   }

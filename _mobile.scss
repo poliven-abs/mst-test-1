@@ -24,10 +24,9 @@
         }
         &-info {
             flex-direction: row;
-            padding: 5px 10px 5px 10px;
+            padding: 15px 10px 15px 10px;
             &__link {
                 font-size: 12px;
-
             }
         }      
   
@@ -36,12 +35,17 @@
     .header.scrolled {
         background-color: #222222;
         width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
         .header-logo {
           font-size: 16px;
         }
         .header-info {
-          padding: 19px 29px 19px 29px;
-          flex-direction: row;
+            padding: 10px 10px 10px 10px;
+            flex-direction: row;
+          &__link {
+            font-size: 10px;
+          }
         }
     }
 
@@ -81,6 +85,7 @@
         &-button {
             width: 225px;
             font-size: 12px;
+            padding: 12px 20px 12px 20px;
         }
     }
 
@@ -94,6 +99,11 @@
             width: 100%;
             padding-left: 0;
             padding-right: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
             &__list {
                 font-size: 16px;
                 margin-left: 0;
@@ -101,7 +111,9 @@
                 text-align: center;
             }
             &__button {
+                padding: 12px 20px 12px 20px;
                 font-size: 12px;
+                width: 225px;
             }
         }
     }
@@ -132,7 +144,7 @@
         }
         &-button {
             font-size: 12px;
-            padding: 20px 12px 20px 12px;
+            padding: 12px 20px 12px 20px;
         }
         &-img {
             display: none;
@@ -146,20 +158,20 @@
             flex-direction: column;
             row-gap: 12px;
             &__link {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         &-block {
             padding-top: 20px;
             flex-direction: column;
-            row-gap: 20px;
+            row-gap: 24px;
         }
         &-logo {
             display: none;
         }
         &-contacts {
             &__text {
-                display: none;
+                font-size: 10px;
             }
         }
         &-icon {
@@ -169,6 +181,7 @@
         &-callback {
             align-items: center;
             &__button {
+                padding: 12px 20px 12px 20px;
                 width: 225px;
                 font-size: 12px;
             }
