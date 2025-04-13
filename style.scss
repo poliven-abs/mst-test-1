@@ -2,12 +2,10 @@
     margin: 0;
     padding: 0;
   }
-  
-  .center {
+    .center {
     padding-left: calc(50% - 960px);
     padding-right: calc(50% - 960px);
   }
-
   body {
     background-color: #282829;
     font-family: ROBOTO;
@@ -70,18 +68,18 @@
         display: none;
       }
   }
-.header.scrolled {
-  background-color: #222222;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  .header-logo {
-    font-size: 16px;
+  .header.scrolled {
+    background-color: #222222;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .header-logo {
+      font-size: 16px;
+    }
+    .header-info {
+      padding: 19px 29px 19px 29px;
+    }
   }
-  .header-info {
-    padding: 19px 29px 19px 29px;
-  }
-}
 
   .top {
     background-color: #282829;
@@ -428,7 +426,6 @@
       }
     }
   }
-
 
   @import 'tablet.scss';
 

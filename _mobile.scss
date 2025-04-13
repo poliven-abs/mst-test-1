@@ -3,7 +3,6 @@
         padding-left: 16px;
         padding-right: 16px;
     }
-
     .header {
         width: 100%;
         padding-top: 0;
@@ -19,8 +18,7 @@
                 text-align: left;
                 text-transform: uppercase;
                 padding: 10px 29px 10px 29px;
-            }
-            
+            }            
         }
         &-info {
             flex-direction: row;
@@ -28,10 +26,8 @@
             &__link {
                 font-size: 12px;
             }
-        }      
-  
+        }  
     }
-
     .header.scrolled {
         background-color: #222222;
         width: 100%;
@@ -48,7 +44,6 @@
           }
         }
     }
-
     .top {
         background-image: none;
         padding-top: 120px;
@@ -88,7 +83,6 @@
             padding: 12px 20px 12px 20px;
         }
     }
-
     .description {
         margin-bottom: 50px;
         background-image: none;
@@ -190,5 +184,4 @@
             }
         }
     }
-
 }
